@@ -52,7 +52,11 @@ Mobile version:
 
 ### What I learned
 
-I learned a lot during this coding exercice. I learned how to use CSS Grid and Flexbox to create a responsive layout. I also learned how to use CSS variables to make the code more readable and easier to maintain. I also learned how to use the CSS pseudo-class :hover to create a better user experience. I managed to refresh once again my knowledge about flexbox and found a way to center my container without effection the two different content sides. Finally, i learned a lot about opacity and how to apply in a more efficient way so that the content is still readable. This last part wasted a lot of my time but i'm glad i managed to find a solution. Last but not least, i worked on the media queries and managed to fix quick enough the mobile version of the app. But it took me a little bit longer to fix the tablet version. I used two different media queries to make sure the app was responsive on all devices.
+I learned a lot during this coding exercise. I learned how to use CSS Grid and Flexbox to create a responsive layout. Furthermore, I also learned how to use CSS variables to make the code more readable and easier to maintain. I also learned how to use the CSS pseudo-class:hover to create a better user experience.
+
+Finally, I learned a lot about opacity and how to apply it in a more efficient way so that the content is still readable. This last part wasted a lot of my time, but I'm glad I managed to find a solution.
+
+Last but not least, I worked on the media queries and managed to fix the mobile version of the app quickly enough. But it took me a little bit longer to fix the tablet version. I used two different media queries to ensure the app was responsive on all devices.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
