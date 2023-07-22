@@ -32,6 +32,7 @@ Desktop version:
 ![](./assets/images/Desktop-App.png)
 
 Mobile version:
+
 ![](./assets/images/mobile-App.png)
 
 ### Links
