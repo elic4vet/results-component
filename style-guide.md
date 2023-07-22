@@ -24,8 +24,6 @@ The designs were created to the following widths:
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
 
-
-
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
@@ -47,3 +45,25 @@ Use transparency to get the colour variations necessary to match the design. Hin
 
 - Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
 - Weights: 500, 700, 800
+
+        <div class="row">
+          <img
+            src="/assets/images/icon-memory.svg"
+            alt="memory"
+            class="memory-icon"
+          />
+        </div>
+        <div class="row">
+          <img
+            src="/assets/images/icon-verbal.svg"
+            alt="verbal"
+            class="verbal-icon"
+          />
+        </div>
+        <div class="row">
+          <img
+            src="/assets/images/icon-visual.svg"
+            alt="visual"
+            class="visual-icon"
+          />
+        </div>
