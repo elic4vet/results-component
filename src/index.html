@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="card">
+      <div class="card centered">
         <!-- Left side -->
         <div class="left-side">
           <header class="header-left">Your result</header>
@@ -17,7 +22,7 @@
             <li class="result">76</li>
             <li class="total-result">of 100</li>
           </ul>
-          <p>Great</p>
+          <p class="score">Great</p>
           <p class="light-txt">
             You scored higher than 65% of the people who have taken these tests.
           </p>
@@ -28,29 +33,30 @@
           <ul class="results">
             <li class="reaction">
               <img src="/assets/images/icon-reaction.svg" />
-              <span class="title"> Reaction</span>
-              <span class="percentage">32 </span>
-              <span class="total-percentage"> / 100</span>
+              <span class="title">Reaction</span>
+              <span class="percentage">32</span>
+              <span class="total-percentage"> /100</span>
             </li>
             <li class="memory">
               <img src="/assets/images/icon-memory.svg" />
               <span class="title"> Memory </span>
-              <span class="percentage">32 </span>
-              <span class="total-percentage"> / 100</span>
+              <span class="percentage">32</span>
+              <span class="total-percentage"> /100</span>
             </li>
             <li class="verbal">
               <img src="/assets/images/icon-verbal.svg" />
               <span class="title"> Verbal </span>
-              <span class="percentage">32 </span>
-              <span class="total-percentage"> / 100</span>
+              <span class="percentage"> 32</span>
+              <span class="total-percentage"> /100</span>
             </li>
             <li class="visual">
               <img src="/assets/images/icon-visual.svg" />
               <span class="title"> Visual </span>
-              <span class="percentage">32</span>
-              <span class="total-percentage"> / 100</span>
+              <span class="percentage"> 32</span>
+              <span class="total-percentage"> /100</span>
             </li>
           </ul>
+          <button class="btn">Continue</button>
         </div>
       </div>
     </div>
