@@ -224,7 +224,90 @@ body {
   align-items: center;
 }
 
+.btn:hover {
+  background: var(--gradient-primary);
+  color: var(--White);
+  transition: all 0.3s ease-in-out;
+  border-color: transparent;
+  opacity: 1;
+}
+
 img {
   display: inline-block;
   margin-left: 5px;
+}
+
+/*media queries */
+
+@media (max-width: 768px) {
+  .container {
+    align-items: center;
+    margin: auto;
+  }
+  .left-side {
+    max-width: 600px;
+    height: 200px;
+  }
+  div .right-side {
+    padding-left: 25px;
+    padding-right: 40px;
+  }
+  .right-side {
+    max-width: 600px;
+    height: 250px;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    padding: 30px 30px;
+  }
+  .score {
+    font-size: 15px;
+  }
+
+  .result {
+    font-size: 30px;
+  }
+  .total-result {
+    font-size: 10px;
+  }
+  .percentage {
+    font-size: 10px;
+  }
+  .total-percentage {
+    font-size: 10px;
+  }
+  .header-left {
+    font-size: 15px;
+  }
+
+  .light-txt {
+    font-size: 10px;
+  }
+  .header-right {
+    font-size: 15px;
+    text-align: center;
+  }
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 948) {
+  .card {
+    max-width: 1600px;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centered {
+    width: 350px;
+    height: 280px;
+  }
 }
