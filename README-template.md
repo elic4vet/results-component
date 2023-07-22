@@ -11,10 +11,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -50,61 +48,45 @@ Mobile version:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learned a lot during this coding exercice. I learned how to use CSS Grid and Flexbox to create a responsive layout. I also learned how to use CSS variables to make the code more readable and easier to maintain. I also learned how to use the CSS pseudo-class :hover to create a better user experience. I managed to refresh once again my knowledge about flexbox and found a way to center my container without effection the two different content sides. Finally, i learned a lot about opacity and how to apply in a more efficient way so that the content is still readable. This last part wasted a lot of my time but i'm glad i managed to find a solution. Last but not least, i worked on the media queries and managed to fix quick enough the mobile version of the app. But it took me a little bit longer to fix the tablet version. I used two different media queries to make sure the app was responsive on all devices.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+<div class="container">
+  <div class="card centered"></div>
+</div>
+```
+
+```css
+--red-opac: hsla(0, 100%, 67%, 0.1);
+--yellow-opac: hsla(39, 100%, 56%, 0.1);
 ```
 
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  --gradient-primary: linear-gradient(#7857ff 0%, #2e2be9 100%);
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - This helped me understand CSS Grid. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) - This helped me understand CSS Flexbox. I'd recommend it to anyone still learning this concept.
+
+- [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - This helped me understand CSS Variables. I'd recommend it to anyone still learning this concept.
+
+- [CSS Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) - This helped me understand CSS Pseudo-classes. I'd recommend it to anyone still learning this concept.
+
+- [Grid template columns ](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) - This is an amazing article which helped me finally understand grid template columns. I'd recommend it to anyone still learning this concept.
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me understand flexbox. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Elisabeth Erkekoglou ](https://www.linkedin.com/in/eerkekoglou/)
+- Frontend Mentor - [@elic4vet](https://www.frontendmentor.io/profile/elic4vet)
+- Instagram - [@elisa.codes23](https://www.instagram.com/elisa.codes23/)
