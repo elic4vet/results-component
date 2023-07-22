@@ -34,7 +34,7 @@
 }
 
 body {
-  background-color: var(--);
+  background: var(--pale-blue);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -58,6 +58,7 @@ body {
   background-color: var(--White);
   border-radius: 10px;
   box-shadow: 0 10px 20px hsla(224, 30%, 15%, 0.1);
+  border-radius: 20px;
 }
 
 .centered {
@@ -243,10 +244,13 @@ img {
   .container {
     align-items: center;
     margin: auto;
+    padding: auto;
   }
   .left-side {
     max-width: 600px;
     height: 200px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
   div .right-side {
     padding-left: 25px;
@@ -294,20 +298,34 @@ img {
   .visual {
     font-size: 10px;
   }
+  .btn:hover {
+    background: var(--gradient-primary);
+    color: var(--White);
+    transition: all 0.3s ease-in-out;
+    border-color: transparent;
+    opacity: 1;
+  }
 }
 
-@media (max-width: 948) {
-  .card {
-    max-width: 1600px;
-  }
+@media (min-width: 769px) and (max-width: 980px) {
   .container {
     align-items: center;
+    margin: auto;
+    padding: auto;
+  }
+  .card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
-
-  .centered {
-    width: 350px;
-    height: 280px;
+  .btn:hover {
+    background: var(--gradient-primary);
+    color: var(--White);
+    transition: all 0.3s ease-in-out;
+    border-color: transparent;
+    opacity: 1;
   }
 }
