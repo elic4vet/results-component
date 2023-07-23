@@ -31,6 +31,13 @@
   --dark-gray-blue: hsl(224, 30%, 27%);
 
   --main-ff: "Hanken Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
 }
 
 body {
@@ -47,6 +54,9 @@ body {
 
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
   flex-direction: column;
   align-items: center;
   max-width: 1200px;
@@ -110,7 +120,7 @@ body {
   color: var(--Dark-gray-blue);
   width: 180px;
   height: 250px;
-  padding: 45px 30px 45px 16px;
+  padding: 45px 20px 45px 16px;
 }
 
 /*right */
@@ -157,10 +167,13 @@ body {
 
 .results {
   list-style: none;
-  padding-left: 0;
   align-items: center;
-  margin-left: 5px;
-  margin-bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
 }
 .reaction,
 .memory,
@@ -173,8 +186,11 @@ body {
   margin-bottom: 20px;
   border-radius: 5px;
   margin-left: 15px;
-  padding: 7px 10px 10px 10px;
-  display: block;
+  padding: 10px 5px 10px 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 5px;
 }
 
 .reaction {
@@ -200,15 +216,16 @@ body {
   margin-left: 10px;
   color: var(--dark-gray-blue);
   text-align: center;
+  justify-content: center;
+  margin-right: 10px;
 }
 
 .total-percentage {
   font-size: 12px;
   font-weight: 700;
-  margin-left: 10px;
   color: var(--dark-gray-blue);
   opacity: 0.5;
-  text-align: center;
+  justify-content: center;
 }
 
 .btn {
@@ -234,17 +251,19 @@ body {
 }
 
 img {
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  max-width: 15px;
   margin-left: 5px;
+  margin-right: 10px;
 }
 
 /*media queries */
-
 @media (max-width: 768px) {
   .container {
+    justify-content: center;
     align-items: center;
-    margin: auto;
-    padding: auto;
   }
   .left-side {
     max-width: 600px;
@@ -254,7 +273,7 @@ img {
   }
   div .right-side {
     padding-left: 25px;
-    padding-right: 40px;
+    padding-right: 20px;
   }
   .right-side {
     max-width: 600px;
